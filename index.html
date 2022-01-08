@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Encryptionator 5000</title>
+    <script src="checkline.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <h1><ins><i>Encrypter and Decoder</i></ins></h1>
+    <hr>
+    <br>
+
+    <form>
+        <label><ins>Encrypt</ins></label>
+        <input id="Encrypt" type="text">
+        <input type="reset">
+    </form>
+
+    <script>
+        var encry = document.getElementById("Encrypt");
+    </script>
+
+    <br>
+    <button onclick="encrypt(encry.value)"> Encrypt </button>
+
+    <br>
+
+    <h2><i>Encrypted Message</i></h2>
+    <p id = "encryptOutput"></p>
+        
+    <br><br><br><br>
+
+    <form>
+        <label><ins>Decode</ins></label>
+        <input id="Decode" type="text">
+        <input type="reset">
+    </form>
+
+    <script>
+        var decod = document.getElementById("Decode");
+    </script>
+
+    <br>
+    <button onclick="decode(decod.value)"> Decode </button>
+
+    <br>
+    <h2><i>Decoded Message</i></h2>
+    <p id = "decodeOutput"></p>
+</body>
+</html>
