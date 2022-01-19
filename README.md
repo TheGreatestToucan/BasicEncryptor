@@ -10,3 +10,7 @@ I don't want to get carryed away with styling and what no until I finish the enc
 For the same reason this is also not very moble-friendly yet.
 
 NOTE: Do not press enter while entering your message in the text box, just press the button below it first, entering it will reset the form and your message will disapear. I will try to fix this in the future.
+
+# BasicEncryptor_v1.2
+
+  In version 1.2, I have made the encryption slightly more complicated. I plan to fix the other probelms later. Many are CSS based and I am still learning. 
