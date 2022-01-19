@@ -8,6 +8,23 @@
 <body>
 
     <h1><ins><i>Encrypter and Decoder</i></ins></h1>
+    <p><i> By Duncan W. Hass </i></p>
+    <hr>
+
+    <p> &nbsp&nbsp&nbsp&nbsp If you have came here to find a basic encrypation, maybe to mess with your friends,
+        maybe to send a secert message, or maybe you just have clicked on a link some guy
+        from the JavaScript subreddit (thanks for visting), you have came to the right place!
+    </p>
+
+    <p> &nbsp&nbsp&nbsp&nbsp So here are the basic rules for using, when you type in the code you would like to be encrypted
+        or decoded, DO NOT press enter, press the "encrypt" or "decode" button right away. Pressing enter 
+        would just earse the text box. I will fix this in a later version. You also cannot, at least in the current version, use anyform of puncuation.
+        These will include exclamation marks, question marks, periods, commas, etc. (spaces do work though)
+        The code will just ingore it and would skip it when giving you the output. This sadly includes numbers so, for now, please spell out numbers fully. 
+        I will attempt to add numbers in later. Also, the reset button will instantly clear the text box for so use that instead of removing it manually.
+        Enjoy my little website!   
+    </p>
+
     <hr>
     <br>
 
@@ -26,10 +43,12 @@
 
     <br>
 
-    <h2><i>Encrypted Message</i></h2>
+    <h2><i>Encrypted Message:</i></h2>
     <p id = "encryptOutput"></p>
         
-    <br><br><br><br>
+    <br>
+    <br>
+    <hr>
 
     <form>
         <label><ins>Decode</ins></label>
@@ -45,7 +64,7 @@
     <button onclick="decode(decod.value)"> Decode </button>
 
     <br>
-    <h2><i>Decoded Message</i></h2>
+    <h2><i>Decoded Message:</i></h2>
     <p id = "decodeOutput"></p>
 </body>
 </html>
